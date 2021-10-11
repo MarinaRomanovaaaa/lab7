@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ 
+font-family: 'bad script';
+    text-align: center;
+    background-color: #74855F;
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 100vh;
+}
+.section1{
+    background-image: url('img/Group\ 3\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+h1{
+    font-family: 'Pacifico';
+    letter-spacing: 0.2em;
+    font-size: 52px;
+    text-align: center;
+    color: #540000;
+    padding-top: 15%;
+}
+.text1{
+width: 70%;
+font-size: 24px;
+padding-left: 30%;
+padding-top: 1%;
+color: #cc1212;
+}
+.section2{
+    padding-top: 5%;  
+    background-color: #74855F;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.italy{
+ display: flex;
+}
+.container_slider_css{
+    margin-left:2%;
+    width:500px;
+    height:300px;
+}
+
+.photo_slider_css{
+    position:absolute;
+    animation:round 10s infinite;
+    opacity:0;
+    width:20%;
+    height:40%;
+}
+@keyframes round {
+25%{opacity:1};
+40%{opacity:0};
+}
+img:nth-child(1){animation-delay:12s}
+img:nth-child(2){animation-delay:8s}
+img:nth-child(3){animation-delay:16s}
+@media(min-width:0px) and (max-width:320px) {
+.container_slider_css{width:80%;height:190px}
+}
+@media(min-width:321px) and (max-width:480px) {
+.container_slider_css{width:80%;height:190px}
+}
+h2{font-family: 'bad script';
+    letter-spacing: 0.2em;
+    font-size: 52px;
+    text-align: center;
+    color: #ac1f1f;
+
+}
+.text2{
+font-family: 'bad script';
+margin-left: 15%;
+margin-right: 3%;
+font-size: 24px;
+font-weight: bold;
+}
+.section3{
+    background-color: #74855F;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.frfood{
+    width: 40%;
+
+}
+
+.text3{
+    font-family: 'bad script';
+margin-left: 10%;
+margin-right: 3%;
+font-size: 24px;
+font-weight: bold;
+}
+
+.ph1{
+width: 25%;
+transition: 1s; 
+}
+
+.ph1:hover {
+  
+    transform: scale(1.2); /* Увеличиваем масштаб */
+    
+  }
+.ph2{
+    width: 24.5%;
+    height: 18%;
+    transition: 1s; 
+}
+
+.ph2:hover {
+  
+    transform: scale(1.2); /* Увеличиваем масштаб */
+    
+  }
+.ph3{
+    width: 24.5%;
+    transition: 1s; 
+}
+
+.ph3:hover {
+  
+    transform: scale(1.2); /* Увеличиваем масштаб */
+    
+  }
+footer{
+    margin-top: 2%;
+    background-color: #373f2d;
+    font-weight: bold;
+}
+
